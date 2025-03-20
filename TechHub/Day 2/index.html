@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1></h1>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: grid;
+            place-items: center;
+            height: 100svh;
+        }
+
+        h1 {
+            background-color: #ff0000;
+            border-radius: 100px;
+            height: 100px;
+            width: 100px;
+            scale: 0;
+            animation: chota_bhara 0.4s infinite;
+        }
+
+        @keyframes chota_bhara {
+            100% {
+                scale: 1;
+            }
+        }
+    </style>
+</body>
+
+</html>
